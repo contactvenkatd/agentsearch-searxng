@@ -22,7 +22,7 @@ outgoing:
   retries: 2
 
 engines:
-  - name: google_api
+  - name: google-api
     engine: google_api
     shortcut: goapi
     categories: general

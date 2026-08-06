@@ -14,7 +14,7 @@ needed a real Dockerfile rather than a dashboard setting.
 
 ## Google API engine on Render
 
-The custom `google_api` engine calls the official Google Programmable Search
+The custom `google-api` engine calls the official Google Programmable Search
 JSON API. Configure these secret environment variables on the Render service:
 
 - `GOOGLE_API_KEY`: an API key authorized for the Custom Search JSON API.
