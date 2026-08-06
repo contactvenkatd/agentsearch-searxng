@@ -1,4 +1,13 @@
-use_default_settings: true
+use_default_settings:
+  engines:
+    keep_only:
+      - wikipedia
+      - wikidata
+      - duckduckgo
+      - mojeek
+      - stract
+      - bing
+      - brave
 
 general:
   instance_name: "AgentSearch"
@@ -7,6 +16,11 @@ search:
   formats:
     - html
     - json
+
+outgoing:
+  request_timeout: 8.0
+  max_request_timeout: 8.0
+  retries: 2
 
 server:
   limiter: false
