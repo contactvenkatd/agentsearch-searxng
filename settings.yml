@@ -22,6 +22,14 @@ outgoing:
   retries: 2
 
 engines:
+  - name: google_api
+    engine: google_api
+    shortcut: goapi
+    categories: general
+    disabled: false
+    weight: 10
+    timeout: 8.0
+    no_result_for_http_status: [400, 401, 403, 429]
   - name: wikipedia
     disabled: false
   - name: wikidata
